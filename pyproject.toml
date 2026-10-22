@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rf-oba-stars"
+version = "0.5.0"
+description = "Classificação espectral de estrelas OBA com Random Forest sobre espectros XP do Gaia DR3"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "scipy>=1.10",
+    "joblib>=1.3",
+    "astropy>=5.3",
+]
+
+[project.optional-dependencies]
+specutils = ["specutils>=1.12"]
+dev = ["pytest>=7.4", "sphinx>=7.0"]
+
+[project.scripts]
+oba-features = "rf_oba_stars.feature_pipeline:main"
+oba-train = "rf_oba_stars.pipeline:main"
+
+[tool.setuptools]
+packages = ["rf_oba_stars"]

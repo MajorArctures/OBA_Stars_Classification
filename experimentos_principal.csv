@@ -1,0 +1,7 @@
+id,data_hora,descricao,tabela,n_amostras,n_atributos,atributos,n_estimators,max_depth,min_samples_leaf,max_features,class_weight,cv_folds,acuracia,acuracia_dp,f1_macro,f1_macro_dp
+P01,2026-08-14T01:08:12,"PRINCIPAL (MK: He II, He I, Hbeta, cor, incl., C2, C3)",v3,8686,7,ew_blend_4686 ew_he_i_4471 ew_h_beta color_mag slope_norm C2 C3,101,25,1,sqrt,balanced,7,0.8689,0.0067,0.7637,0.0101
+P02,2026-08-14T01:08:23,principal sem C2/C3,v3,8686,5,ew_blend_4686 ew_he_i_4471 ew_h_beta color_mag slope_norm,101,25,1,sqrt,balanced,7,0.8633,0.0116,0.7477,0.0186
+P03,2026-08-14T01:08:34,principal sem cor nem inclinacao,v3,8686,5,ew_blend_4686 ew_he_i_4471 ew_h_beta C2 C3,101,25,1,sqrt,balanced,7,0.8644,0.0075,0.7455,0.0075
+P04,2026-08-14T01:08:41,principal so linhas,v3,8686,3,ew_blend_4686 ew_he_i_4471 ew_h_beta,101,25,1,sqrt,balanced,7,0.842,0.0107,0.6771,0.0161
+P05,2026-08-14T01:08:58,ESTENDIDO (principal + extras),v3,8686,12,ew_blend_4686 ew_he_i_4471 ew_h_beta color_mag slope_norm C2 C3 ew_h_alpha ew_h_gamma ew_ca_ii_k ew_he_i_5876 blue_red_norm,101,25,1,sqrt,balanced,7,0.8876,0.0053,0.8242,0.0111
+P06,2026-08-14T01:09:09,so os atributos extras,v3,8686,5,ew_h_alpha ew_h_gamma ew_ca_ii_k ew_he_i_5876 blue_red_norm,101,25,1,sqrt,balanced,7,0.873,0.004,0.7983,0.0108
