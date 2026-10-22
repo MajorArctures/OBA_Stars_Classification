@@ -6,7 +6,7 @@
 
 <a id="português"></a>
 
-# 🇧🇷 Classificação Automática de Estrelas O, B e A com Espectros de Baixa Resolução e Aprendizado de Máquina
+## Classificação Automática de Estrelas O, B e A com Espectros de Baixa Resolução e Aprendizado de Máquina
 
 ## Sobre o projeto
 
@@ -108,7 +108,7 @@ Trabalho de conclusão de curso dedicado à aplicação de aprendizado de máqui
 
 <a id="english"></a>
 
-# 🇬🇧 Automatic Classification of O-, B-, and A-Type Stars Using Low-Resolution Spectra and Machine Learning
+## Automatic Classification of O-, B-, and A-Type Stars Using Low-Resolution Spectra and Machine Learning
 
 ## Project overview
 
